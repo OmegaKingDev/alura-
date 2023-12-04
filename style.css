@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+:root{
+    --a-branco-principal: #ffff;
+    --a-cinzasecundario: #C0C0C0;
+    --a-botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --font--family--inter: 'Inter', sans-serif;;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--a-branco-principal);
+}
+
+
+.principal{
+    background-image: url("./assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.div__principal{
+    margin: 0 6em;
+}
+
+.titulo{
+    font-family: var(--font--family--inter);
+    font-size: 1.75em;
+    font-weight: 700;
+
+}
+
+
+.imagem{
+    margin: 1em 0 2em 0;
+}
+
+
+.botao{
+    background-color: var(--a-botao-azul);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--a-branco-principal);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: var(--font--family--inter);
+    font-weight: 400;
+    margin-bottom: 1em;
+ 
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 1px solid var(--a-branco-principal);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--a-branco-principal);
+    text-decoration: none;
+    display: block; 
+    text-align: center;
+    font-family: var(--font--family--inter);
+    font-weight: 400;
+
+}
+
+.aviso{
+    color: var(--a-cinzasecundario);
+    font-size: 0.75em;
+    padding-top: 0.75em;
+    font-family: var(--font--family--inter);
+    font-weight: 400;
+
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: var(--font--family--inter);
+    margin-bottom: 0.2em;
+}
+
+.descricao__texto{
+    color: var(--a-cinzasecundario);
+    width: 80%;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--font--family--inter);
+}
+
+.descricao__texto2{
+    color: var(--a-cinzasecundario);
+    width: 80%;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--font--family--inter);
+    margin-bottom: 1em;
+}
+
+
+.botao__assine{
+    background-color: var(--a-botao-azul);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--a-branco-principal);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: var(--font--family--inter);
+    font-weight: 400;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+
+.dispositivos{
+    text-align: center;
+    font-family: var(--font--family--inter)
+}
+
+
+.dispositivos__titulo{
+    margin-bottom: 2.5em;
+    font-size: 48px;
+    color: var(--a-branco-principal);
+}
+
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center ;
+    list-style-type: none;
+}
+
+
+.lista__item{
+    font-size: 32px;
+    color: var(--a-branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    font-family: var(--font--family--inter);
+    
+}
+.rodape__logo{
+    padding-top: 9em;
+    margin-bottom: 2.5em;
+}
+.lista__link{
+    text-decoration: none;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 3em;
+    color: var(--a-branco-principal);
+
+}
+
+.linki{
+    text-decoration: none;
+    color: var(--a-branco-principal);
+
+}
+
+.rodape__texto{
+    padding-bottom: 2.5em;
+    color: var(--a-cinzasecundario);
+}
